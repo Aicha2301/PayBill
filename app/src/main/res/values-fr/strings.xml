@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PaiyBill</string>
+    <string name="description"> XXX</string>
+    <string name="connection">Connection</string>
+    <string name="login">Identifiant</string>
+    <string name="password">Mot de passe</string>
+    <string name="connect">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="home">Acceuil</string>
+    <string name="billPaid">Facture Payés</string>
+    <string name="unpaidBill">Facture Impayée</string>
+    <string name="location">Localisation</string>
+    <string name="list">liste facturier</string>
+    <string name="help">Aide</string>
+    <string name="back">Retour</string>
+    <string name="inscription">Inscription</string>
+    <string name="first_name">Prenom</string>
+    <string name="last_name">Nom</string>
+    <string name="email">Email </string>
+    <string name="passwordI">Mot de passe</string>
+    <string name="number">Numéro</string>
+    <string name="save">Enregistrert</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="wait">Patientez svp</string>
+    <string name="error_fields">Veuillez renseigner les champs</string>
+    <string name="error_connection">Erreur de connection</string>
+    <string name="error_parameters">Paramétres invalides</string>
+    <string name="error_inscription">Inscription échouée</string>
+    <string name="success_inscription">Inscription réussie</string>
+
+</resources>

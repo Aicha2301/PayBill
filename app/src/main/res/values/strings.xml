@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">PayBill</string>
+        <string name="app_name">PayBill</string>
+        <string name="description"> XXX</string>
+        <string name="connection">Connection</string>
+        <string name="login">Login</string>
+        <string name="password">Password</string>
+        <string name="connect">Connect</string>
+        <string name="sign_up">Sign Up</string>
+        <string name="home">Home</string>
+        <string name="billPaid">Bill Paid</string>
+        <string name="unpaidBill">Unpaid Bill</string>
+        <string name="location">Location</string>
+        <string name="help">Help</string>
+        <string name="list">list of billers</string>
+        <string name="back">Back</string>
+        <string name="inscription">Inscription</string>
+        <string name="first_name">First name</string>
+        <string name="last_name">Last name</string>
+        <string name="email">Email </string>
+        <string name="passwordI">Password</string>
+        <string name="number">Number</string>
+        <string name="save">Save</string>
+        <string name="welcome">Welcome</string>
+        <string name="wait">Wait</string>
+        <string name="error_fields">Please fill the required field</string>
+        <string name="error_connection">Connection error</string>
+        <string name="error_parameters">Invalid parameters</string>
+        <string name="error_inscription">Inscription failed</string>
+        <string name="success_inscription">Inscription succeed</string>
+
 </resources>
