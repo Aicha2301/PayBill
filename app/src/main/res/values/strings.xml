@@ -20,6 +20,10 @@
     <string name="email">Email </string>
     <string name="passwordI">Password</string>
     <string name="number">Number</string>
+    <string name="address">address</string>
+    <string name="sexe">sexe</string>
+    <string name="homme">Man</string>
+    <string name="femme">Women</string>
     <string name="save">Save</string>
     <string name="welcome">Welcome</string>
     <string name="wait">Wait</string>

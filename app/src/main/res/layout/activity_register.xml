@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="@dimen/dim_all"
+        android:textSize="@dimen/dim_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inscription" />
+
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/sexe"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/sexe"
+        android:textSize="@dimen/dim_top"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/femme"
+            android:layout_marginLeft="@dimen/dim_sexe"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/femme"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/homme"
+            android:layout_marginLeft="@dimen/dim_sexe"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homme"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_margin="@dimen/dim_button"
+        android:backgroundTint="@color/blue_mauve"
+        android:layout_marginTop="@dimen/dim_top"
+        android:text="@string/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
