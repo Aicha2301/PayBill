@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">PaiyBill</string>
     <string name="descriptionhome"> Donnez le meilleur de vous-même ! </string>
+    <string name="description"> Notre entreprise! </string>
     <string name="connection">Connection</string>
     <string name="login">Identifiant</string>
     <string name="password">Mot de passe</string>
