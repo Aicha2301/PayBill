@@ -2,6 +2,7 @@
     <string name="app_name">PaiyBill</string>
     <string name="descriptionhome"> Donnez le meilleur de vous-même ! </string>
     <string name="description"> Notre entreprise! </string>
+    <string name="description_bill"> Description </string>
     <string name="connection">Connection</string>
     <string name="login">Identifiant</string>
     <string name="password">Mot de passe</string>
@@ -24,6 +25,10 @@
     <string name="sexe">sexe</string>
     <string name="homme">Homme</string>
     <string name="femme">Femme</string>
+    <string name="add_bill">Ajouter une facture</string>
+    <string name="deadline">Date d\'échance</string>
+    <string name="amount">Montant</string>
+    <string name="type_bill">Type</string>
     <string name="save">Enregistrert</string>
     <string name="welcome">Bienvenue</string>
     <string name="wait">Patientez svp</string>

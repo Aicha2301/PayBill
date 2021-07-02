@@ -40,4 +40,10 @@
         android:label="@string/help"
         tools:layout="@layout/fragment_help" />
 
+    <fragment
+        android:id="@+id/nav_add_bill"
+        android:name="com.example.paybill.AddBillFragment"
+        android:label="@string/add_bill"
+        tools:layout="@layout/fragment_add_bill" />
+
 </navigation>

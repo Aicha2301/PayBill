@@ -2,6 +2,7 @@
     <string name="app_name">PayBill</string>
     <string name="descriptionhome"> Give the best of yourself !</string>
     <string name="description"> Notre entreprise! </string>
+    <string name="description_bill"> Description </string>
     <string name="connection">Connection</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
@@ -18,12 +19,16 @@
     <string name="first_name">First name</string>
     <string name="last_name">Last name</string>
     <string name="email">Email </string>
+    <string name="add_bill">Add Bill</string>
+    <string name="deadline">Deadline</string>
+    <string name="amount">Amount</string>
     <string name="passwordI">Password</string>
     <string name="number">Number</string>
     <string name="address">address</string>
     <string name="sexe">sexe</string>
     <string name="homme">Man</string>
     <string name="femme">Women</string>
+    <string name="type_bill">Type</string>
     <string name="save">Save</string>
     <string name="welcome">Welcome</string>
     <string name="wait">Wait</string>

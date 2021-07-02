@@ -28,5 +28,9 @@
             android:id="@+id/nav_help"
             android:icon="@drawable/ic_help"
             android:title="@string/help" />
+        <item
+            android:id="@+id/nav_add_bill"
+            android:icon="@drawable/ic_help"
+            android:title="@string/add_bill" />
     </group>
 </menu>

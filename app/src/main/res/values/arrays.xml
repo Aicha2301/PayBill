@@ -17,4 +17,14 @@
         <item>Date : 21/03/2021- Montant : 20375 F</item>
 
     </string-array>
+
+    <string-array name="tab_type_bills">
+        <item>Orange</item>
+        <item>Senelec</item>
+        <item>Rapido</item>
+        <item>Woyofal</item>
+        <item>Aquatech</item>
+        <item>Canal +</item>
+
+    </string-array>
 </resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddBillFragment">
+
+    <TextView
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="@dimen/dim_all"
+        android:textSize="@dimen/dim_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_bill" />
+
+
+    <EditText
+        android:id="@+id/deadline"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/deadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/typeBill"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/type_bill"
+        android:textSize="@dimen/dim_top"/>
+
+    <Spinner
+        android:id="@+id/tab_type_bills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/descriptionBill"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/description_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSaveBill"
+        android:layout_margin="@dimen/dim_button"
+        android:backgroundTint="@color/blue_mauve"
+        android:layout_marginTop="@dimen/dim_top"
+        android:text="@string/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
