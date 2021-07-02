@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tab_bills_Paid" >
+        <item>Facture numéro 420</item>
+        <item>Facture numéro 421</item>
+        <item>Facture numéro 422</item>
+        <item>Facture numéro 427</item>
+        <item>Facture numéro 429</item>
+    </string-array>
+
+    <string-array name="tab_details" >
+        <item>Date : 07/04/2021 - Montant : 200000 F</item>
+        <item>Date : 09/02/2021- Montant : 250000 F</item>
+        <item>Date : 21/01/2012- Montant : 20320 F</item>
+        <item>Date : 12/12/2020- Montant : 2032047 F</item>
+        <item>Date : 21/03/2021- Montant : 20375 F</item>
+
+    </string-array>
+</resources>

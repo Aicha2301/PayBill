@@ -13,19 +13,31 @@
 
     <fragment
         android:id="@+id/nav_Paid"
-        android:name="com.example.paybill.ui.gallery.GalleryFragment"
+        android:name="com.example.paybill.PaidFragment"
         android:label="@string/billPaid"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_paid" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.paybill.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_UnPaid"
+        android:name="com.example.paybill.UnPaidFragment"
         android:label="@string/unpaidBill"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_un_paid" />
 
     <fragment
-        android:id="@+id/nav_slideshow1"
-        android:name="com.example.paybill.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_list"
+        android:name="com.example.paybill.ListPaidFragment"
         android:label="@string/list"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_list_paid" />
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.paybill.LocationFragment"
+        android:label="@string/location"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.paybill.HelpFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_help" />
+
 </navigation>
