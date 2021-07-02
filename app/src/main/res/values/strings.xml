@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PayBill</string>
-    <string name="description"> XXX</string>
+    <string name="descriptionhome"> Give the best of yourself !</string>
     <string name="connection">Connection</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
