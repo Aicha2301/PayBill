@@ -7,4 +7,5 @@
     <dimen name="dim_all" >15dp</dimen>
     <dimen name="dim_middle" >100dp</dimen>
     <dimen name="dim_sexe" >100dp</dimen>
+    <dimen name="dim_mot" >15dp</dimen>
 </resources>

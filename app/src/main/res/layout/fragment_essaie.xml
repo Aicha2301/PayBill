@@ -1,0 +1,44 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:background="@mipmap/ic_17"
+    android:orientation="horizontal"
+    tools:context=".GridXMLActivity" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+
+        android:layout_column="0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_button"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_marginRight="@dimen/dim_button"
+            android:hint="@string/address"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_button"
+            android:layout_marginTop="@dimen/dim_top"
+            android:layout_marginRight="@dimen/dim_button"
+            android:hint="@string/email"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+
+</GridLayout>
+

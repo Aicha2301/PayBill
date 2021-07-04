@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BillFragment"
+    android:orientation="vertical">
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        tools:context=".GridXMLActivity" >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdPaidBill"
+            android:layout_width="100dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="80dp"
+            android:layout_margin="16dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg">
+
+                <TextView
+                    android:textColor="#ffff"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:width="500dp"
+                    android:text="@string/paid_bill"
+                    />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdUnpaidBill"
+            android:layout_width="100dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="80dp"
+            android:layout_margin="16dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_dark_background">
+
+                <TextView
+                    android:textColor="#ffff"
+                    android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:width="500dp"
+                    android:text="@string/unpaid_bill"
+                    />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+
+    <ListView
+        android:id="@+id/listBills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_menu_share"
+        android:layout_margin="16dp" />
+
+</LinearLayout>

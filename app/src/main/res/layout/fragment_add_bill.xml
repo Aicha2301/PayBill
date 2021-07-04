@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@mipmap/ic_16"
     tools:context=".AddBillFragment">
 
     <TextView
@@ -20,13 +21,19 @@
 
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/deadline"
-        android:layout_marginTop="@dimen/dim_top"
+        android:layout_marginTop="150dp"
         android:hint="@string/deadline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/amount"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/amount"
@@ -34,6 +41,9 @@
         android:layout_height="wrap_content" />
 
     <TextView
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColor="@color/white"
         android:id="@+id/typeBill"
         android:layout_marginTop="@dimen/dim_top"
         android:layout_height="wrap_content"
@@ -47,6 +57,9 @@
         android:layout_height="wrap_content" />
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/descriptionBill"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/description_bill"
@@ -56,7 +69,7 @@
     <Button
         android:id="@+id/btnSaveBill"
         android:layout_margin="@dimen/dim_button"
-        android:backgroundTint="@color/blue_mauve"
+        android:backgroundTint="@color/black"
         android:layout_marginTop="@dimen/dim_top"
         android:text="@string/save"
         android:layout_width="match_parent"

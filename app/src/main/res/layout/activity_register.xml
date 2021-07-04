@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@mipmap/ic_16"
     tools:context=".RegisterActivity">
 
     <TextView
@@ -21,6 +22,9 @@
 
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/txtFirstName"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/first_name"
@@ -28,6 +32,9 @@
         android:layout_height="wrap_content" />
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/txtLastName"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/last_name"
@@ -36,25 +43,35 @@
 
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/number"
         android:layout_marginTop="@dimen/dim_top"
-        android:hint="@string/number"
+        android:hint="@string/phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/adresse"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
     <TextView
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColor="@color/white"
         android:id="@+id/sexe"
         android:layout_marginTop="@dimen/dim_top"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/sexe"
-        android:textSize="@dimen/dim_top"/>
+        android:text="@string/gender"
+        android:textSize="30dp"/>
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -62,23 +79,28 @@
         android:orientation="horizontal">
 
         <RadioButton android:id="@+id/femme"
+            android:textColor="@color/white"
             android:layout_marginLeft="@dimen/dim_sexe"
             android:layout_marginTop="@dimen/dim_top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/femme"
+            android:text="@string/women"
             android:onClick="onRadioButtonClicked"/>
 
         <RadioButton android:id="@+id/homme"
+            android:textColor="@color/white"
             android:layout_marginLeft="@dimen/dim_sexe"
             android:layout_marginTop="@dimen/dim_top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/homme"
+            android:text="@string/man"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/email"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/email"
@@ -86,6 +108,9 @@
         android:layout_height="wrap_content" />
 
     <EditText
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColorHint="@color/white"
         android:id="@+id/password"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/password"
@@ -94,9 +119,21 @@
     <Button
         android:id="@+id/btnSave"
         android:layout_margin="@dimen/dim_button"
-        android:backgroundTint="@color/blue_mauve"
+        android:backgroundTint="@color/black"
         android:layout_marginTop="@dimen/dim_top"
         android:text="@string/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_marginRight="@dimen/dim_button"
+        android:layout_marginLeft="@dimen/dim_button"
+        android:textColor="@color/black"
+        android:id="@+id/texte"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/txt_already_account"
+        android:textSize="20dp"/>
+
+
 </LinearLayout>

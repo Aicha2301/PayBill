@@ -12,22 +12,23 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_Paid"
-        android:name="com.example.paybill.PaidFragment"
-        android:label="@string/billPaid"
-        tools:layout="@layout/fragment_paid" />
+        android:id="@+id/nav_account"
+        android:name="com.example.paybill.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
 
     <fragment
-        android:id="@+id/nav_UnPaid"
-        android:name="com.example.paybill.UnPaidFragment"
-        android:label="@string/unpaidBill"
-        tools:layout="@layout/fragment_un_paid" />
+        android:id="@+id/nav_bill"
+        android:name="com.example.paybill.BillFragment"
+        android:label="@string/bill"
+        tools:layout="@layout/fragment_bill" />
 
     <fragment
-        android:id="@+id/nav_list"
-        android:name="com.example.paybill.ListPaidFragment"
-        android:label="@string/list"
-        tools:layout="@layout/fragment_list_paid" />
+        android:id="@+id/nav_biller"
+        android:name="com.example.paybill.BillerFragment"
+        android:label="@string/billers"
+        tools:layout="@layout/fragment_bill" />
+
     <fragment
         android:id="@+id/nav_location"
         android:name="com.example.paybill.LocationFragment"
@@ -39,11 +40,5 @@
         android:name="com.example.paybill.HelpFragment"
         android:label="@string/help"
         tools:layout="@layout/fragment_help" />
-
-    <fragment
-        android:id="@+id/nav_add_bill"
-        android:name="com.example.paybill.AddBillFragment"
-        android:label="@string/add_bill"
-        tools:layout="@layout/fragment_add_bill" />
 
 </navigation>

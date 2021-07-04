@@ -9,17 +9,20 @@
             android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_Paid"
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_person"
+            android:title="@string/account" />
+
+        <item
+            android:id="@+id/nav_bill"
             android:icon="@drawable/ic_paid"
-            android:title="@string/billPaid" />
+            android:title="@string/bill" />
+
         <item
-            android:id="@+id/nav_unpaid"
-            android:icon="@drawable/ic_unpaid"
-            android:title="@string/unpaidBill" />
-        <item
-            android:id="@+id/nav_list"
+            android:id="@+id/nav_biller"
             android:icon="@drawable/ic_listf_bill"
-            android:title="@string/list" />
+            android:title="@string/billers" />
+
         <item
             android:id="@+id/nav_location"
             android:icon="@drawable/ic_ocation"
@@ -28,9 +31,6 @@
             android:id="@+id/nav_help"
             android:icon="@drawable/ic_help"
             android:title="@string/help" />
-        <item
-            android:id="@+id/nav_add_bill"
-            android:icon="@drawable/ic_help"
-            android:title="@string/add_bill" />
+
     </group>
 </menu>
