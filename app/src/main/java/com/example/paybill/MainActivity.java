@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         txtPassword = findViewById(R.id.txtPassword);
         btnConnect = findViewById(R.id.btnConnect);
         btnSignUp = findViewById(R.id.btnSignUp);
-        responseTxt = findViewById(R.id.responseTextRegister);
+
 
         //appui sur le bouton s'inscrire
         btnSignUp.setOnClickListener(new View.OnClickListener() {

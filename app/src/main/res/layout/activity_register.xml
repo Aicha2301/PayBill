@@ -46,7 +46,7 @@
         android:layout_marginRight="@dimen/dim_button"
         android:layout_marginLeft="@dimen/dim_button"
         android:textColorHint="@color/white"
-        android:id="@+id/number"
+        android:id="@+id/txtPhone"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/phone"
         android:layout_width="match_parent"
@@ -56,7 +56,7 @@
         android:layout_marginRight="@dimen/dim_button"
         android:layout_marginLeft="@dimen/dim_button"
         android:textColorHint="@color/white"
-        android:id="@+id/adresse"
+        android:id="@+id/txtAddress"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/address"
         android:layout_width="match_parent"
@@ -76,32 +76,33 @@
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <RadioButton android:id="@+id/femme"
-            android:textColor="@color/white"
+        <RadioButton android:id="@+id/rbFemme"
             android:layout_marginLeft="@dimen/dim_sexe"
             android:layout_marginTop="@dimen/dim_top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/women"
-            android:onClick="onRadioButtonClicked"/>
+            android:text="@string/women" />
 
-        <RadioButton android:id="@+id/homme"
-            android:textColor="@color/white"
+        <RadioButton android:id="@+id/rbHomme"
             android:layout_marginLeft="@dimen/dim_sexe"
             android:layout_marginTop="@dimen/dim_top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/man"
-            android:onClick="onRadioButtonClicked"/>
+            android:text="@string/man" />
     </RadioGroup>
 
     <EditText
         android:layout_marginRight="@dimen/dim_button"
         android:layout_marginLeft="@dimen/dim_button"
         android:textColorHint="@color/white"
-        android:id="@+id/email"
+        android:id="@+id/txtEmail"
         android:layout_marginTop="@dimen/dim_top"
         android:hint="@string/email"
         android:layout_width="match_parent"
@@ -135,5 +136,13 @@
         android:text="@string/txt_already_account"
         android:textSize="20dp"/>
 
+    <TextView
+        android:id="@+id/responseTextRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
 
 </LinearLayout>
